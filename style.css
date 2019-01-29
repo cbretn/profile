@@ -1,3 +1,37 @@
+#sidebar {
+    background-color: #384047;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 120px;
+    text-align: center;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #788188;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fas:hover {
+    color: white;
+}
+
+.page-content {
+  margin-left: 300px;
+}
+
 .container {
   width: 800px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
